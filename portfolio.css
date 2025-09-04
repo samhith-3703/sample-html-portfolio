@@ -2,7 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background: #f0f4f8;
+  background:rgb(240, 238, 234);
   color: #333;
   margin: 0;
   padding: 0;
@@ -20,22 +20,26 @@ html {
   background-color: #0a192f;
   padding: 15px 30px;
 }
+
 .logo {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
+
 .nav-links a {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
   transition: color 0.3s;
 }
+
 .nav-links a:hover {
   color: #64ffda;
 }
@@ -46,21 +50,24 @@ html {
   padding: 80px 20px;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: white;
-  
 }
+
 .intro h1 {
   font-size: 40px;
   margin-bottom: 10px;
 }
+
 .intro h1 span {
   color: #64ffda;
 }
+
 .intro p {
   font-size: 18px;
   margin-bottom: 20px;
   max-width: 600px;
   margin-inline: auto;
 }
+
 .btn {
   display: inline-block;
   padding: 10px 25px;
@@ -70,6 +77,7 @@ html {
   border-radius: 5px;
   transition: background 0.3s;
 }
+
 .btn:hover {
   background-color: #52e0c4;
 }
@@ -84,48 +92,16 @@ html {
   border: 4px solid #64ffda;
 }
 
-/* Education */
-#education {
-  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+/* Section Styling */
+.section {
+  background: #fff;
+  padding: 40px 20px;
+  margin: 40px auto;
+  max-width: 1000px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* Projects */
-#projects {
-  background: linear-gradient(to right, #e6e9f0, #eef1f5);
-}
-.no-underline {
-  text-decoration: none;
-}
-
-/* Internship */
-#internship {
-  background: linear-gradient(to right, #c8cac8, #082ed6);
-  color: white;
-}
-#internship h2, #internship h3, #internship p {
-  color: white;
-}
-
-/* Skills */
-#skills {
-  background: #fffbe6;
-}
-
-/* Achievements */
-#achievements {
-  background: #e0f7fa;
-}
-
-/* Contact */
-#contact {
-  background: linear-gradient(to right, #c8cac8, #f082b5);
-}
-/* Certifications */
-#certifications {
-  background:#edb5e9;
-}
-
-/* Section Headings */
 .section h2 {
   font-size: 28px;
   color: #0a192f;
@@ -136,37 +112,158 @@ html {
   text-align: center;
 }
 
-
-
-/* Contact Info */
-.contact-info {
-  border-bottom: #0cd9e0;
-  padding: 40px 20px;
-  margin: 40px auto;
-  text-align: center;
-  margin: 0%;
+.section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
 }
-.contact-info h2 {
+
+.section p {
+  margin: 5px 0 15px;
+  color: #555;
+}
+
+/* Education */
+#education {
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+
+/* Projects */
+#projects {
+  background: linear-gradient(to right, #e6e9f0, #eef1f5);
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+/* Internship */
+#internship {
+  background: linear-gradient(to right, #c8cac8, #082ed6);
+  color: white;
+}
+
+#internship h2,
+#internship h3,
+#internship p {
+  color: white;
+}
+
+
+/* Achievements */
+#achievements {
+  background: #e0f7fa;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.achievements-list li {
+  background: #e0f7fa;
+  color: #0a192f;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* Certifications */
+#certifications {
+  background: #caf2b8;
+}
+
+/* Contact */
+#contact {
+  background: linear-gradient(to right, #c8cac8, #f082b5);
+}
+
+.contact-info {
+  padding: 40px 20px;
   text-align: center;
+}
+
+.contact-info h2 {
   font-size: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   color: #0a192f;
   border-bottom: 2px solid #5deccb;
   display: inline-block;
   padding-bottom: 5px;
-
 }
+
 .contact-info p {
   font-size: 16px;
   margin: 10px 0;
 }
+
 .contact-info a {
   color: #0a192f;
   font-weight: bold;
   text-decoration: none;
 }
+
 .contact-info a:hover {
   color: #64ffda;
+}
+
+#skills {
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 40px;
+  background: #f5e9aa;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+#skills h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #031d38;
+  text-align: center;
+  border-bottom: 3px solid #0fb9ec;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skills-category {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.skills-category h3 {
+  flex: 1;
+  font-size: 20px;
+  margin: 0;
+  color: #0a192f;
+  font-weight: 600;
+}
+
+.skills-category ul {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-category ul li {
+  font-size: 18px;
+  color: #333;
 }
 
 /* Responsive Design */
@@ -190,94 +287,17 @@ html {
     width: 100px;
     height: 100px;
   }
-}
 
-/* Generic Section Styling */
-.section {
-  background: #fff;
-  padding: 40px 20px;
-  margin: 40px auto;
-  max-width: 900px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
+  .skills-category {
+    flex-direction: column;
+  }
 
-.section h2 {
-  font-size: 28px;
-  color: #0a192f;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #64ffda;
-  display: inline-block;
-  padding-bottom: 5px;
-  text-align: center;
-}
+  .skills-category h3 {
+    margin-bottom: 8px;
+  }
 
-/* Subentries like projects, education, etc */
-.section h3 {
-  font-size: 20px;
-  color: #333;
-  margin-bottom: 5px;
+  .skills-category ul {
+    gap: 10px 20px;
+  }
 }
-
-.section p {
-  margin: 5px 0 15px;
-  color: #555;
-}
-
-/* Achievements Lists */
-.achievements-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.achievements-list li {
-  background: #e0f7fa;
-  color: #0cd9e0;
-  padding: 10px 15px;
-  border-radius: 6px;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-#skills {
-  margin: 30px auto;
-  max-width: 800px;
-  
- 
-  
-}
-
-#skills h2 {
-  font-size: 26px;
-  margin-bottom: 15px;
-  color: #031d38;
-  text-align: center;
-  border-bottom: 2px solid #0fb9ec;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
-.skills-category {
-  margin-bottom: 20px;
-}
-
-.skills-category h3 {
-  font-size: 20px;
-  margin-bottom: 8px;
-  color: #333;
-}
-
-.skills-category ul {
-  list-style-type: disc;
-  margin-left: 25px;
-}
-
-.skills-category ul li {
-  margin: 5px 0;
-  font-size: 18px;
-}
-
 
