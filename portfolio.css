@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f7f5f7;
+  color: #333;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  text-align: right;
+  margin-bottom: 30px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Intro (center) */
+.intro {
+  text-align: center;
+  margin: 60px 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.intro h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #232222;
+}
+.intro p {
+  font-size: 18px;
+  color: #2d302d;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #100f0f;
+}
+.contact-info a {
+  color: #0056b3;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* Section Content */
+section {
+  margin-bottom: 25px;
+}
+section p, section li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+ul {
+  margin-left: 20px;
+}
