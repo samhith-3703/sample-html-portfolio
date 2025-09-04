@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Samhith - Portfolio</title>
-  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <!-- Navigation -->
-  <nav>
-    <ul>
+  <nav class="navbar">
+    <div class="logo">Samhith</div>
+    <ul class="nav-links">
       <li><a href="about.html">About</a></li>
       <li><a href="education.html">Education</a></li>
       <li><a href="projects.html">Projects</a></li>
@@ -19,17 +22,23 @@
     </ul>
   </nav>
 
-  <!-- Intro (Home Content) -->
+  <!-- Intro Section -->
   <header class="intro">
-    <h1>I am Samhith</h1>
-    <p>I am a B.Tech graduate specializing in IoT. I am eager to learn, grow, and apply my skills to real-world challenges.</p>
+    <img src="your-profile.jpg" alt="Samhith Profile" class="profile-img">
+    <h1>Hello, I'm <span>Samhith</span></h1>
+    <p>A B.Tech graduate in IoT with a passion for innovation and problem-solving.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
   </header>
-    <div class="contact-info">
-      <h2>Contact-info</h2>
-    <p>+91-7207172646 | ✉️ mannamsamhith@gmail.com</p>
-    <p><a href="https://linkedin.com/in/mannam-samhith" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/samhith-3703" target="_blank">GitHub</a></p>
-  </div>
+
+  <!-- Contact Section -->
+  <section class="contact-info" id="contact">
+    <h2>Contact Info</h2>
+    <p>📞 +91-7207172646<br>✉️ <a href="mailto:mannamsamhith@gmail.com">mannamsamhith@gmail.com</a></p>
+    <p>
+      <a href="https://linkedin.com/in/mannam-samhith" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/samhith-3703" target="_blank">GitHub</a>
+    </p>
+  </section>
 
 </body>
 </html>
